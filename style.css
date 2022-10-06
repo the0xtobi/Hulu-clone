@@ -1,0 +1,532 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.4rem;
+}
+
+h1,
+h2,
+p {
+    color: #fff;
+}
+
+img {
+    max-width: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    width: 94%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.8rem 0;
+    position: relative;
+}
+
+nav img {
+    width: 6.2rem;
+}
+
+.menu-bar {
+    font-size: 2.2rem;
+    color: #fff;
+    background-color: #323843;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.1rem 1.4rem;
+    border-radius: 1rem;
+    position: absolute;
+    right: 0;
+    display: none;
+}
+
+nav button {
+    background: none;
+    font-weight: 600;
+    border: none;
+    color: #a8afbd;
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+}
+
+nav button:hover {
+    color: #fff;
+    cursor: pointer;
+}
+
+main {
+    background: center/cover url(header.jpeg) no-repeat;
+}
+
+.main-content {
+    margin-top: 5rem;
+}
+
+.main-content-1 {
+    text-align: center;
+    padding: 0 0.9rem;
+}
+
+.main-content h1 {
+    font-family: 'roboto', san-serif;
+    font-size: 5rem;
+    font-weight: 500;
+}
+
+.cnet {
+    font-size: 2.3rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 1.5rem 0;
+}
+
+.main-content h2 {
+    font-weight: 300;
+    font-size: 2.6rem;
+    line-height: 3.2rem;
+    margin-top: 2.5rem;
+    margin-bottom: 1.6rem;
+}
+
+.main-content .main-button {
+    min-width: 45%;
+    min-height: 5rem;
+    background-color: #1ce783;
+    border: none;
+    border-radius: 0.5rem;
+}
+
+.main-content .main-button span {
+    width: max-content;
+    font-size: 1.4rem;
+    font-weight: 600;
+    padding: 1.5rem 1rem;
+    margin: 1rem 0;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+    white-space: nowrap;
+}
+
+
+
+.main-content button:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.trial {
+    font-size: 1rem;
+    font-weight: 300;
+    color: #ffffff99;
+    padding-top: 0.5rem;
+    padding-bottom: 6rem;
+}
+
+.dark-section {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100vw;
+}
+
+.dark-section-container {
+    max-width: 95%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 3.8rem;
+}
+
+.dark-1 {
+    margin: 2.8rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dark-1 img {
+    width: 35rem;
+}
+
+.dark-2 {
+    margin: 2.8rem 0;
+}
+
+.dark-2 .text-1 {
+    text-transform: uppercase;
+    color: #1ce783;
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-bottom: 1.2rem;
+}
+
+.dark-2 .text-2 {
+    text-transform: capitalize;
+    font-size: 2.5rem;
+    font-weight: 300;
+    letter-spacing: 0.1rem;
+    margin-bottom: 0.8rem;
+}
+
+.dark-2 .text-3 {
+    font-size: 1.4rem;
+    font-weight: 300;
+    color: #ffffff99;
+    text-decoration: underline;
+}
+
+.dark-2 .text-3:hover {
+    cursor: pointer;
+    color: #fff;
+}
+
+.dark-3 {
+    margin: 2.8rem 0;
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.dark-3 button {
+    background: none;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1.4rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    background-color: #fff;
+    padding: 1.7rem 3rem;
+    white-space: nowrap;
+}
+
+.terms-apply {
+    font-size: 1rem;
+    font-weight: 300;
+    color: #ffffff99;
+    padding-top: 0.7rem;
+    text-decoration: underline;
+}
+
+.terms-apply:hover {
+    cursor: pointer;
+    color: #fff;
+}
+
+.section-1{
+    background-color: #0b0c0f;  
+}
+
+.section-1 h3{
+    color: #fff;
+}
+
+.section-1 .second-part-text-container{
+    /* min-width: inherit;
+    margin: 0 auto; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 7rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-bottom: 4rem;
+
+}
+
+.second-part-text-container h3{
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    font-weight: 500;
+    letter-spacing: 0.15rem;
+}
+
+.second-part-text-container .all-tv{
+    font-size: 5rem;
+    font-weight: 600;
+    margin: 1.7rem 0;
+    letter-spacing: 0.15rem;
+}
+
+.second-part-text-container .stream{
+    font-size: 1.8rem;
+    font-weight: 300;
+    margin-top: 1.8rem;
+    letter-spacing: 0.1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ########## MEDIA QUERIES ###################################
+###############################################################  */
+@media (max-width:1023px) {
+    .menu-bar {
+        font-size: 2.2rem;
+        color: #fff;
+        background-color: #323843;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1.1rem 1.4rem;
+        border-radius: 1rem;
+        position: absolute;
+        right: 0;
+    }
+
+    nav button {
+        background: none;
+        font-weight: 600;
+        border: none;
+        color: #a8afbd;
+        text-transform: uppercase;
+        letter-spacing: 0.3rem;
+        display: none;
+    }
+
+    .main-content h2 {
+        font-weight: 300;
+        font-size: 1.7rem;
+        line-height: 3.2rem;
+        margin-top: 2.5rem;
+        letter-spacing: 0.09rem;
+        margin-bottom: 1.6rem;
+    }
+
+    .second-part-text-container .stream{
+        font-size: 1.6rem;
+        font-weight: 300;
+        margin-top: 1.8rem;
+        letter-spacing: 0.1rem;
+    }
+
+
+    .main-content .main-button {
+        min-width: 38%;
+        min-height: 4rem;
+        background-color: #1ce783;
+        border: none;
+        border-radius: 0.5rem;
+    }
+    
+}
+
+@media (max-width:767px) {
+    .dark-section-container {
+        width: 100%;
+        display:block;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .dark-1 {
+        padding-top:1rem;
+        margin: 0;
+        max-width: 100%;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .dark-1 img{
+        width: 21rem;
+    }
+
+    .dark-2 {
+        /* margin: 0 0; */
+        text-align: center;
+    }
+
+    .dark-3 {
+        margin: 0 0;
+        padding-top: 0rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .dark-2 .text-2 {
+        text-transform: capitalize;
+        font-size: 2.5rem;
+        font-weight: 300;
+        letter-spacing: 0.1rem;
+        margin-bottom: 0;
+        display: none;
+    }
+
+    .dark-2 .text-1 {
+        text-transform: uppercase;
+        color: #1ce783;
+        font-size: 1.3rem;
+        font-weight: 500;
+        margin: 0.8rem 0;
+    }
+
+    .dark-2 .text-3 {
+        font-size: 1.4rem;
+        width: max-content;
+        padding-bottom: 1.2rem;
+        font-weight: 300;
+        color: #ffffff99;
+        text-decoration: underline;
+    }
+
+    .terms-apply {
+        font-size: 1rem;
+        font-weight: 300;
+        display: block;
+        padding-bottom: 1.2rem;
+        color: #ffffff99;
+        padding-top: 0.7rem;
+        text-decoration: underline;
+    }
+
+    .second-part-text-container .all-tv{
+        font-size: 3.2rem;
+        font-weight: 600;
+        margin: 1.4rem 0;
+        letter-spacing: 0.15rem;
+    }
+
+    .stream-break{
+        display:none;
+    }
+
+
+
+
+
+}
+
+
+@media (max-width:375px){
+    .second-part-text-container .all-tv{
+        font-size: 2.4rem;
+        font-weight: 300;
+        margin-top: 1.4rem;
+        margin-bottom: 1rem;
+        letter-spacing: 0.15rem;
+    }
+
+    .second-part-text-container h3{
+        text-transform: uppercase;
+        font-size: 1.4rem;
+        font-weight: 300;
+        letter-spacing: 0.15rem;
+    }
+
+    .second-part-text-container .stream{
+        font-size: 1.6rem;
+        font-weight: 300;
+        margin-top: 1rem;
+        letter-spacing: 0.1rem;
+    }
+    
+    .main-content h1 {
+        font-family: 'roboto', san-serif;
+        font-size: 4rem;
+        font-weight: 500;
+    }
+
+}
