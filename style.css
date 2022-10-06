@@ -259,7 +259,96 @@ main {
     letter-spacing: 0.1rem;
 }
 
+.movie-cards-display{
+    display: grid;
+    grid-template-columns: repeat(4, 295px);
+    justify-content: center;
+    gap: 2rem;
+}
 
+.past-current{
+    position: relative;
+}
+
+.past-current-text{
+    padding: 2.5rem 2.5rem;
+    position: absolute;
+    top:0;
+    left:0;
+}
+
+.past-current-text h2{
+    padding-top: 1rem;
+    letter-spacing: .1rem;
+    font-size: 2.5rem;
+}
+
+.past-current-text h3{
+    font-weight: 400;
+}
+
+.new-classic{
+    position: relative;
+}
+
+.new-classic-text{
+    padding: 2.5rem 2.5rem;
+    position: absolute;
+    top:0;
+    left:0;
+}
+
+.new-classic-text h2{
+    padding-top: 1rem;
+    letter-spacing: .1rem;
+    font-size: 2.5rem;
+}
+
+.new-classic-text h3{
+    font-weight: 400;
+}
+
+.groundbreaking{
+    position: relative;
+}
+
+.groundbreaking-text{
+    padding: 2.5rem 2.5rem;
+    position: absolute;
+    top:0;
+    left:0;
+}
+
+.groundbreaking-text h2{
+    padding-top: 1rem;
+    letter-spacing: .1rem;
+    font-size: 2.5rem;
+}
+
+.groundbreaking-text h3{
+    font-weight: 400;
+}
+
+.newly-added{
+    position: relative;
+}
+
+.newly-added-text{
+    padding: 2.5rem 2.5rem;
+    position: absolute;
+    top:0;
+    left:0;
+}
+
+.newly-added-text h2{
+    padding-top: 1rem;
+    letter-spacing: .1rem;
+    font-size: 2.5rem;
+}
+
+.newly-added-text h3{
+    font-weight: 400;
+}
 
 
 
@@ -349,6 +438,24 @@ main {
 
 /* ########## MEDIA QUERIES ###################################
 ###############################################################  */
+@media (max-width:1280px){
+    .movie-cards{
+        width: 98%;
+        margin: 0 auto;
+        max-width: 800px;
+    }
+
+
+    .movie-cards-display{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        gap: 2rem;
+        margin: 0 2rem;
+    }
+}
+
+
 @media (max-width:1023px) {
     .menu-bar {
         font-size: 2.2rem;
@@ -402,15 +509,16 @@ main {
 
 @media (max-width:767px) {
     .dark-section-container {
-        width: 100%;
-        display:block;
-        justify-content: center;
+        display: grid;
+        grid-template-columns: 1fr;
         align-items: center;
+        gap: 1rem;
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 1rem 0;
     }
 
     .dark-1 {
-        padding-top:1rem;
-        margin: 0;
+        
         max-width: 100%;
         display:flex;
         justify-content: center;
@@ -422,13 +530,10 @@ main {
     }
 
     .dark-2 {
-        /* margin: 0 0; */
         text-align: center;
     }
 
     .dark-3 {
-        margin: 0 0;
-        padding-top: 0rem;
         display: flex;
         flex-direction: column;
         justify-content: center;
