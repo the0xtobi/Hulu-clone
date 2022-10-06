@@ -139,12 +139,13 @@ main {
 .dark-section-container {
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
+    align-items: center;
     gap: 3.8rem;
     background-color: rgba(0, 0, 0, 0.5);
+    padding: 2.4rem 5rem;
 }
 
 .dark-1 {
-    margin: 2.8rem 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -152,10 +153,6 @@ main {
 
 .dark-1 img {
     width: 35rem;
-}
-
-.dark-2 {
-    margin: 2.8rem 0;
 }
 
 .dark-2 .text-1 {
@@ -187,8 +184,6 @@ main {
 }
 
 .dark-3 {
-    margin: 2.8rem 0;
-    padding-top: 2rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
