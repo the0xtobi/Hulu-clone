@@ -416,11 +416,17 @@ main::after {
     align-items: center;
 }
 
-.footer-container{
+footer{
     background-color: #e8eaed;
-    padding: 0 14rem;
     position: relative;
 }
+
+.footer-container{
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1400px;
+}
+
 
 .footer-top-links{
     padding: 3rem 0;
@@ -446,16 +452,17 @@ main::after {
 }
 
 .footer-bottom-links{
-    display: flex;
+    padding-top: 1rem;
+    padding-bottom: 5rem;
 }
 
-.footer-bottom-links p{
+.footer-bottom-links span{
+    display: inline-block;
     color:#586174;
     font-weight: 300;
     font-size: 1.2rem;
     margin-right: 2.6rem;
-    padding-top: 1rem;
-    padding-bottom: 5rem;
+    padding-top: 1.5rem;
 }
 
 .footer-bottom-links .more-space{
