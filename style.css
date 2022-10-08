@@ -25,6 +25,7 @@ img {
     box-sizing: border-box;
 }
 
+/* ### NAVIGATION ### */
 nav {
     width: 94%;
     margin: 0 auto;
@@ -68,6 +69,7 @@ nav button:hover {
     cursor: pointer;
 }
 
+/* ### MAIN ### */
 main {
     background: center/cover url(header.jpeg) no-repeat;
 }
@@ -153,7 +155,7 @@ main::after {
     );
   }
 
-
+/* ### SUB-HEADER ### */
 .dark-section-container {
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
@@ -238,13 +240,12 @@ main::after {
     padding-bottom: 10rem;
 }
 
+/* ### FIRST-SECTION ### */
 .section-1 h3{
     color: #fff;
 }
 
 .section-1 .second-part-text-container{
-    /* min-width: inherit;
-    margin: 0 auto; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -254,7 +255,6 @@ main::after {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
     padding-bottom: 4rem;
-
 }
 
 .second-part-text-container h3{
@@ -388,6 +388,7 @@ main::after {
       linear-gradient(24.5deg, rgba(0, 0, 0, 0.2) 4.71%, rgba(0, 0, 0, 0) 71.49%);
   }
 
+/* ### SECOND-SECTION ### */
 .section-2{
     width: 75%;
     margin: 0 auto;
@@ -435,6 +436,7 @@ main::after {
     align-items: center;
 }
 
+/* ### FOOTER ### */
 footer{
     background-color: #e8eaed;
 }
@@ -483,7 +485,6 @@ footer{
     padding-top: 1.5rem;
 }
 
-
 .footer-bottom-links p:hover{
     cursor: pointer;
 }
@@ -498,7 +499,7 @@ footer{
 
 
 
-/* ########## MEDIA QUERIES ########## */
+/* ### MEDIA QUERIES ### */
 @media (max-width:1280px){
     .movie-cards{
         width: 98%;
