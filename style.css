@@ -217,6 +217,7 @@ main {
 
 .section-1{
     background-color: #0b0c0f;  
+    padding-bottom: 10rem;
 }
 
 .section-1 h3{
@@ -350,14 +351,108 @@ main {
     font-weight: 400;
 }
 
-.section-2-container p{
-    color: #586174;
+.section-2{
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 3.5rem;
+    padding-bottom: 7.5rem;
+    text-align: center;
 }
 
 .section-2-container{
-    color: red;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:1.5rem;
+    align-items: baseline;
 }
 
+.section-2-container p{
+    color: #586174;
+    font-size: 1.5rem;
+    font-weight: 300;
+    letter-spacing: .1rem;
+}
+
+.section-2-container img{
+    display: block;
+}
+
+.sec2-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec2-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec2-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-container{
+    background-color: #e8eaed;
+    padding: 0 14rem;
+    position: relative;
+}
+
+.footer-top-links{
+    padding: 3rem 0;
+    border-bottom: 2px solid #d9dce2;;
+}
+
+.footer-top-links a{
+    text-decoration: none;
+    color: #586174;
+    margin-right: 2rem;
+    font-weight: 300;
+    letter-spacing: 0.1rem;
+}
+
+.footer-logos{
+    padding: 3rem 0;
+}
+
+.footer-logos img{
+    display: inline-block;
+    margin-right: 2.6rem;
+    
+}
+
+.footer-bottom-links{
+    display: flex;
+}
+
+.footer-bottom-links p{
+    color:#586174;
+    font-weight: 300;
+    font-size: 1.2rem;
+    margin-right: 2.6rem;
+    padding-top: 1rem;
+    padding-bottom: 5rem;
+}
+
+.footer-bottom-links .more-space{
+    margin-right: 5rem;
+}
+
+.about-ads{
+    position: absolute;
+    left:26.5rem;
+    bottom:4.75rem;
+}
+
+.footer-bottom-links p:hover{
+    cursor: pointer;
+}
 
 
 
@@ -511,6 +606,13 @@ main {
         background-color: #1ce783;
         border: none;
         border-radius: 0.5rem;
+    }
+
+    .section-2-container{
+        display:grid;
+        grid-template-columns: 1fr;
+        gap:5rem;
+        align-items: baseline;
     }
     
 }
