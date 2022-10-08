@@ -222,6 +222,10 @@ main::after {
     white-space: nowrap;
 }
 
+.dark-3 button span{
+    color: black;
+}
+
 .terms-apply {
     font-size: 1rem;
     font-weight: 300;
@@ -573,7 +577,21 @@ footer{
         gap:5rem;
         align-items: baseline;
     }
+
+    .main-content button:hover {
+        opacity: 1;
+        cursor: pointer;
+    }
     
+    .dark-2 .text-3:hover {
+        cursor: pointer;
+        color:  #ffffff99;
+    }
+
+    .terms-apply:hover {
+        cursor: pointer;
+        color: #ffffff99;
+    }
 }
 
 @media (max-width:767px) {
@@ -727,6 +745,8 @@ footer{
         font-weight: 300;
         font-size: 2.2rem;
     }
+
+    
 }
 
 
