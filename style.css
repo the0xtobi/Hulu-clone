@@ -294,6 +294,7 @@ main::after {
     position: absolute;
     top:0;
     left:0;
+    z-index: 2;
 }
 
 .past-current-text h2{
@@ -315,6 +316,7 @@ main::after {
     position: absolute;
     top:0;
     left:0;
+    z-index: 2;
 }
 
 .new-classic-text h2{
@@ -336,6 +338,7 @@ main::after {
     position: absolute;
     top:0;
     left:0;
+    z-index: 2;
 }
 
 .groundbreaking-text h2{
@@ -357,6 +360,7 @@ main::after {
     position: absolute;
     top:0;
     left:0;
+    z-index: 2;
 }
 
 .newly-added-text h2{
@@ -368,6 +372,21 @@ main::after {
 .newly-added-text h3{
     font-weight: 400;
 }
+
+.cover-grad {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+        156.82deg,
+        rgba(0, 0, 0, 0.6) 4.58%,
+        rgba(0, 0, 0, 0) 69.61%
+      ),
+      linear-gradient(24.5deg, rgba(0, 0, 0, 0.2) 4.71%, rgba(0, 0, 0, 0) 71.49%);
+  }
 
 .section-2{
     width: 75%;
@@ -418,13 +437,12 @@ main::after {
 
 footer{
     background-color: #e8eaed;
-    position: relative;
 }
 
 .footer-container{
     width: 90%;
     margin: 0 auto;
-    max-width: 1400px;
+    max-width: 1100px;
 }
 
 
@@ -465,15 +483,6 @@ footer{
     padding-top: 1.5rem;
 }
 
-.footer-bottom-links .more-space{
-    margin-right: 5rem;
-}
-
-.about-ads{
-    position: absolute;
-    left:26.5rem;
-    bottom:4.75rem;
-}
 
 .footer-bottom-links p:hover{
     cursor: pointer;
@@ -489,83 +498,7 @@ footer{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* ########## MEDIA QUERIES ###################################
-###############################################################  */
+/* ########## MEDIA QUERIES ########## */
 @media (max-width:1280px){
     .movie-cards{
         width: 98%;
@@ -722,10 +655,77 @@ footer{
         display:none;
     }
 
+    .past-current-text{
+        padding: 1.2rem 1.2rem;
+        position: absolute;
+        top:0;
+        left:0;
+        z-index: 2;
+    }
 
+    .past-current-text h3{
+        font-weight: 300;
+        font-size: 1.2rem;
+    }
 
+    .past-current-text h2{
+        font-weight: 300;
+        font-size: 2.2rem;
+    }
+    
+    .new-classic-text{
+        padding: 1.2rem 1.2rem;
+        position: absolute;
+        top:0;
+        left:0;
+        z-index: 2;
+    }
 
+    .new-classic-text h3{
+        font-weight: 300;
+        font-size: 1.2rem;
+    }
 
+    .new-classic-text h2{
+        font-weight: 300;
+        font-size: 2.2rem;
+    }
+
+    .groundbreaking-text{
+        padding: 1.2rem 1.2rem;
+        position: absolute;
+        top:0;
+        left:0;
+        z-index: 2;
+    }
+
+    .groundbreaking-text h3{
+        font-weight: 300;
+        font-size: 1.2rem;
+    }
+
+    .groundbreaking-text h2{
+        font-weight: 300;
+        font-size: 2.2rem;
+    }
+
+    .newly-added-text{
+        padding: 1.2rem 1.2rem;
+        position: absolute;
+        top:0;
+        left:0;
+        z-index: 2;
+    }
+
+    .newly-added-text h3{
+        font-weight: 300;
+        font-size: 1.2rem;
+    }
+
+    .newly-added-text h2{
+        font-weight: 300;
+        font-size: 2.2rem;
+    }
 }
 
 
@@ -756,6 +756,26 @@ footer{
         font-family: 'roboto', san-serif;
         font-size: 4rem;
         font-weight: 500;
+    }
+
+    .past-current-text h2{
+        font-size: 1.9rem;
+        font-weight: 300;
+    }
+
+    .new-classic-text h2{
+        font-size: 1.9rem;
+        font-weight: 300;
+    }
+
+    .groundbreaking-text h2{
+        font-size: 1.9rem;
+        font-weight: 300;
+    }
+
+    .newly-added-text h2{
+        font-size: 1.9rem;
+        font-weight: 300;
     }
 
 }
